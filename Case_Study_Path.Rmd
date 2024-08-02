@@ -1,0 +1,120 @@
+---
+title: "Case_Study_Path"
+author: "Cerrie"
+date: "2024-07-31"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## **Case Study Path**
+
+### **Introduction**
+Welcome to my case study, which will be about detailed [Mobile Sales Dataset](https://www.kaggle.com/datasets/waqi786/mobile-sales-dataset) , where I will explore how this data can help me see things from different perspectives, such as measuring which age group of customers use which mobile phones the most, and which brands are selling the best and which brands are growing the most.
+
+### **Ask**
+
+1.What type of company does your client represent.
+
+ * Being a mobile phone dealer.
+ 
+ 1.1.and what are they asking you to accomplish?
+ 
+ * Which age group of customers use which mobile phone brands the most?
+ * Which brand of phone should we buy to sell well?
+ * Which customer group should we advertise to?
+ 
+2.What are the key factors involved in the business task you are investigating?
+
+ * Understand what the business is aiming to achieve with this task.
+ * Determine who will be affected by or has an interest in the task.
+ * Ensure that the task aligns with stakeholder interests.
+ * Use the insights gained to improve future tasks.
+
+3.What type of data will be appropriate for your analysis?
+
+ * Data Analytics
+ * Data Visualization
+
+4.Where will you obtain that data?
+
+ * kaggle [Mobile Sales Dataset](https://www.kaggle.com/datasets/waqi786/mobile-sales-dataset) By [Waqar Ali](https://www.kaggle.com/waqi786)
+
+5.Who is your audience, 
+
+ * mobile phone dealer
+ 
+ 5.1.and what materials will help you present to them effectively?
+ 
+ * data Presentation
+ * dashboard
+ 
+### **Prepare**
+
+#### **About Dataset**
+
+**Data From [Mobile Sales Dataset](https://www.kaggle.com/datasets/waqi786/mobile-sales-dataset)** made available By [Waqar Ali](https://www.kaggle.com/waqi786) Comprehensive Data on Mobile Device Sales Across Various Regions. This dataset provides detailed information on mobile device sales, capturing various aspects such as sales figures, device types, and regional performance. It offers valuable insights into the mobile sales industry, including trends and patterns across different markets. Whether you're analyzing market dynamics or building predictive models, this dataset is designed to support a wide range of data science and analytical projects.
+
+
+**The dataset includes:**
+
+* **Date of Sale:** Dates on which the sales transactions occurred.
+
+* **Device Type:** Various types of mobile devices sold, including smartphones and feature phones.
+
+* **Region:** Different geographical regions where sales were recorded.
+
+* **Units Sold:** Number of units sold for each device.
+
+* **Sales Revenue:** Revenue generated from sales.
+
+* **Customer Demographics:** Information on the customers who made purchases, including age and gender.
+
+* **Retailer:** Retail outlets where the sales were made.
+
+#### **Sample data**
+```{r}
+#head(mobile_sales)
+```
+
+### **Process**
+
+This entire process takes place in a [Google Sheet](https://docs.google.com/spreadsheets/d/13qvsfTcb9JAXskLl-XlfiA3v-VzSbodzDlKncafmwkM/edit?usp=sharing).
+
+* Tihs link if can not open https://docs.google.com/spreadsheets/d/13qvsfTcb9JAXskLl-XlfiA3v-VzSbodzDlKncafmwkM/edit?usp=sharing
+
+* First, I changed the Price and TotalRevenue column from a simple number to a dollar sign.
+
+* Apply filter and remove Blank value.
+
+* Then I delete the duplicate values.
+
+* Use the conditional function to check if a value is empty.
+
+* Then I use the chart to check if there is an outline value.
+
+* And then format the Table Date to Date.
+
+* Then sort the dates from A to Z.
+
+### **Analyze**
+
+ * view Data [after_mobile_sales](https://docs.google.com/spreadsheets/d/13qvsfTcb9JAXskLl-XlfiA3v-VzSbodzDlKncafmwkM/edit?usp=sharing)
+ 
+ * Tihs link if can not open https://docs.google.com/spreadsheets/d/13qvsfTcb9JAXskLl-XlfiA3v-VzSbodzDlKncafmwkM/edit?usp=sharing
+```{r view data after_mobile_sales}
+#View(after_mobile_sales.csv)
+```
+
+ * I use [Power BI](https://drive.google.com/drive/folders/1lbrOd4opdNIveeibj0eSyI3bPjg0-suu?usp=drive_link) to analyze.
+ 
+ * Tihs link if can not open https://drive.google.com/drive/folders/1lbrOd4opdNIveeibj0eSyI3bPjg0-suu?usp=drive_link
+
+### **Share**
+
+This is my [Google slide](https://docs.google.com/presentation/d/1ISUt8UAiC_lfntQtg7IpJy66neWCUNOsdgcYfuYTp2E/edit?usp=sharing).
+
+* Tihs link if can not open https://docs.google.com/presentation/d/1ISUt8UAiC_lfntQtg7IpJy66neWCUNOsdgcYfuYTp2E/edit?usp=sharing
+
